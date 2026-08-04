@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raven Studio 3D | Letras 3D, Anuncios Neón, DTF y Grabado Láser</title>
+  <meta name="description" content="Diseño y fabricación de Letras 3D iluminadas, Anuncios Neón Flex en MDF y Acrílico, impresión textil DTF y artículos personalizados. ¡Cotiza tu letrero neón al instante!">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800;900&family=Outfit:wght@400;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Ambient Glow Background Canvas -->
+  <div class="ambient-glow cyan-glow"></div>
+  <div class="ambient-glow magenta-glow"></div>
+
+  <!-- Header / Navigation -->
+  <header class="main-header" id="header">
+    <div class="container navbar">
+      <a href="#inicio" class="brand-logo">
+        <div class="logo-ring">
+          <img src="fotos/Raven3DPerfil.png" alt="Raven Studio 3D Logo" id="nav-logo">
+        </div>
+        <div class="brand-text">
+          <span class="brand-name">RAVEN</span>
+          <span class="brand-sub">STUDIO 3D</span>
+        </div>
+      </a>
+
+      <nav class="nav-menu" id="nav-menu">
+        <a href="#inicio" class="nav-link active">Inicio</a>
+        <a href="#servicios" class="nav-link">Servicios</a>
+        <a href="#cotizador" class="nav-link highlight-link"><i class="fa-solid fa-calculator"></i> Cotizador Neón</a>
+        <a href="#galeria" class="nav-link">Galería</a>
+        <a href="#proceso" class="nav-link">Proceso</a>
+        <a href="#faq" class="nav-link">FAQ</a>
+        <a href="#contacto" class="nav-link">Contacto</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="https://wa.me/527778247658?text=Hola%20Raven%20Studio%203D,%20me%20gustar%C3%ADa%20cotizar%20un%20proyecto%20personalizado." target="_blank" rel="noopener" class="btn btn-whatsapp header-btn">
+          <i class="fa-brands fa-whatsapp"></i> <span class="btn-text">WhatsApp Directo</span>
+        </a>
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Abrir Menú">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="inicio">
+    <div class="hero-bg-overlay"></div>
+    <div class="hero-bg-image" style="background-image: url('fotos/Raven3DPortada.png');"></div>
+    
+    <div class="container hero-content">
+      <div class="hero-badge">
+        <span class="badge-pulse"></span>
+        <i class="fa-solid fa-sparkles"></i> Fabricantes Directos • Calidad Premium 3D
+      </div>
+      
+      <h1 class="hero-title">
+        Creamos tu Identidad Visual con <span class="neon-text-cyan">Letras 3D</span> & <span class="neon-text-magenta">Anuncios Neón</span>
+      </h1>
+      
+      <p class="hero-description">
+        Especialistas en <strong>Letreros Volumétricos 3D</strong>, <strong>Neón LED Flex en MDF y Acrílico</strong>, <strong>Impresión Textil DTF</strong> y <strong>Artículos Personalizados Grabados en Láser</strong>. Damos vida y brillo profesional a tu marca.
+      </p>
+
+      <div class="hero-cta-group">
+        <a href="#cotizador" class="btn btn-primary glow-cyan">
+          <i class="fa-solid fa-calculator"></i> Cotizar Letrero Neón
+        </a>
+        <a href="#galeria" class="btn btn-secondary">
+          <i class="fa-solid fa-images"></i> Ver Galería de Trabajos
+        </a>
+        <a href="https://wa.me/527778247658?text=Hola!%20Deseo%20cotizar%20un%20anuncio%20o%20producto%20personalizado" target="_blank" rel="noopener" class="btn btn-whatsapp">
+          <i class="fa-brands fa-whatsapp"></i> Cotizar al Instante
+        </a>
+      </div>
+
+      <!-- Quick Feature Stats -->
+      <div class="hero-stats">
+        <div class="stat-card">
+          <div class="stat-icon"><i class="fa-solid fa-lightbulb"></i></div>
+          <div class="stat-info">
+            <span class="stat-number">100%</span>
+            <span class="stat-label">Personalizado</span>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon"><i class="fa-solid fa-truck-fast"></i></div>
+          <div class="stat-info">
+            <span class="stat-number">Envíos</span>
+            <span class="stat-label">A todo México</span>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon"><i class="fa-solid fa-microchip"></i></div>
+          <div class="stat-info">
+            <span class="stat-number">Corte Láser</span>
+            <span class="stat-label">Alta Precisión</span>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon"><i class="fa-solid fa-shield-halved"></i></div>
+          <div class="stat-info">
+            <span class="stat-number">Garantía</span>
+            <span class="stat-label">3 Meses Tira LED</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Specialised Neon Sign Budget Calculator Section -->
+  <section class="calculator-section" id="cotizador">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-tag"><i class="fa-solid fa-calculator"></i> Cotizador Rápido</span>
+        <h2 class="section-title">Cotizador de <span class="neon-text-cyan">Anuncios Neón</span></h2>
+        <p class="section-subtitle">Ingresa las medidas y características de tu letrero para calcular tu presupuesto al instante.</p>
+      </div>
+
+      <div class="calculator-card glass-card">
+        <form id="neon-quote-form" class="quote-grid" onsubmit="event.preventDefault();">
+          
+          <!-- Base Material Selection -->
+          <div class="form-group">
+            <label for="neon-material"><i class="fa-solid fa-layer-group"></i> Material de Base:</label>
+            <select id="neon-material" class="form-control">
+              <option value="mdf" selected>MDF (Base Negra u Oscura)</option>
+              <option value="acrilico">Acrílico Transparente Cristalino</option>
+            </select>
+          </div>
+
+          <!-- Dimensions Input -->
+          <div class="form-group form-row-2">
+            <div>
+              <label for="neon-width"><i class="fa-solid fa-ruler-horizontal"></i> Ancho (cm):</label>
+              <input type="number" id="neon-width" class="form-control" value="60" min="45" max="300" placeholder="Mínimo 45 cm">
+            </div>
+            <div>
+              <label for="neon-height"><i class="fa-solid fa-ruler-vertical"></i> Alto (cm):</label>
+              <input type="number" id="neon-height" class="form-control" value="40" min="25" max="300" placeholder="Mínimo 25 cm">
+            </div>
+
+            <div class="dimension-min-legend full-width">
+              <i class="fa-solid fa-circle-info"></i>
+              <span>Medida mínima de fabricación: <strong>45 cm (ancho) x 25 cm (alto)</strong></span>
+            </div>
+          </div>
+
+          <!-- Style / Complexity Criteria with Examples Showcase -->
+          <div class="form-group full-width">
+            <label for="neon-criteria"><i class="fa-solid fa-sliders"></i> Tipo de Diseño o Acabado:</label>
+            <select id="neon-criteria" class="form-control">
+              <option value="sencillo">Sencillo (1 color o texto lineal)</option>
+              <option value="diseno" selected>Con Diseño / Logotipo Personalizado</option>
+              <option value="multicolor">Más de 3 Colores de Neón</option>
+              <option value="vinil">Con Impresión de Vinil de Fondo</option>
+            </select>
+
+            <!-- Interactive Example Preview Card -->
+            <div class="criteria-example-card" id="criteria-example-card">
+              <div class="example-image-wrapper">
+                <img src="fotos/ejemplo_diseno.png" alt="Ejemplo Con Diseño / Logotipo" id="criteria-example-img">
+                <div class="example-image-badge" id="criteria-example-badge"><i class="fa-solid fa-eye"></i> Ejemplo: Con Diseño / Logotipo</div>
+              </div>
+              
+              <div class="example-selector-pills">
+                <button type="button" class="example-pill-btn" data-value="sencillo" onclick="selectCriteria('sencillo')">
+                  <img src="fotos/ejemplo_sencillo.png" alt="Sencillo">
+                  <span>Sencillo</span>
+                </button>
+                <button type="button" class="example-pill-btn active" data-value="diseno" onclick="selectCriteria('diseno')">
+                  <img src="fotos/ejemplo_diseno.png" alt="Con Diseño">
+                  <span>Con Diseño</span>
+                </button>
+                <button type="button" class="example-pill-btn" data-value="multicolor" onclick="selectCriteria('multicolor')">
+                  <img src="fotos/ejemplo_multicolor.png" alt="3+ Colores">
+                  <span>3+ Colores</span>
+                </button>
+                <button type="button" class="example-pill-btn" data-value="vinil" onclick="selectCriteria('vinil')">
+                  <img src="fotos/ejemplo_vinil.png" alt="Con Vinil">
+                  <span>Con Vinil</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Final Price Panel -->
+          <div class="calculator-total-panel full-width">
+            <div class="total-display">
+              <span>Precio Total Estimado:</span>
+              <strong id="neon-total-price">$506.00 MXN</strong>
+              <small class="disclaimer-text">*Incluye base en el material elegido, neón LED flex de 12V, fuente de alimentación e insumos de montaje.</small>
+            </div>
+
+            <button type="button" id="send-neon-whatsapp" class="btn btn-whatsapp btn-lg">
+              <i class="fa-brands fa-whatsapp"></i> Pedir este Letrero por WhatsApp
+            </button>
+          </div>
+
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services-section" id="servicios">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-tag"><i class="fa-solid fa-cube"></i> Especialidades</span>
+        <h2 class="section-title">Nuestros Servicios de <span class="neon-text-magenta">Alta Calidad</span></h2>
+        <p class="section-subtitle">Fabricación propia con materiales de primera línea para garantizar durabilidad y acabados impresionantes.</p>
+      </div>
+
+      <div class="services-grid">
+        
+        <!-- Service Card 1 -->
+        <div class="service-card glass-card">
+          <div class="service-image-header">
+            <img src="fotos/5.jpeg" alt="Letras 3D e Iluminadas">
+            <div class="service-badge-tag"><i class="fa-solid fa-layer-group"></i> 3D Premium</div>
+          </div>
+          <div class="service-body">
+            <h3 class="service-title">Letras 3D e Iluminadas</h3>
+            <p class="service-text">
+              Letreros volumétricos con cuerpo en acrílico, MDF, aluminio y PVC. Iluminación LED directo, difusa o retroiluminación (Efecto Halo) ideal para marcas corporativas y fachadas comerciales.
+            </p>
+            <ul class="service-features">
+              <li><i class="fa-solid fa-check"></i> Acrílico fundido de alto impacto</li>
+              <li><i class="fa-solid fa-check"></i> Múltiples grosores y perfiles</li>
+              <li><i class="fa-solid fa-check"></i> Módulos LED impermeables de larga vida</li>
+            </ul>
+            <a href="https://wa.me/527778247658?text=Hola,%20me%20interesa%20cotizar%20letras%203D%20iluminadas" target="_blank" class="service-btn">Cotizar por WhatsApp <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <!-- Service Card 2 -->
+        <div class="service-card glass-card">
+          <div class="service-image-header">
+            <img src="fotos/foto_1.png" alt="Anuncios Neón Flex LED">
+            <div class="service-badge-tag neon-badge"><i class="fa-solid fa-bolt"></i> Neón LED</div>
+          </div>
+          <div class="service-body">
+            <h3 class="service-title">Anuncios Neón Flex LED</h3>
+            <p class="service-text">
+              Diseños artísticos y comerciales en manguera de neón siliconada de 12V sobre MDF o Acrílico. De bajo consumo de energía, resistente a caídas y súper brillante.
+            </p>
+            <ul class="service-features">
+              <li><i class="fa-solid fa-check"></i> Base en MDF o Acrílico transparente</li>
+              <li><i class="fa-solid fa-check"></i> 10+ colores combinables</li>
+              <li><i class="fa-solid fa-check"></i> Incluye fuente e insumos completos</li>
+            </ul>
+            <a href="#cotizador" class="service-btn">Calcular en Cotizador <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <!-- Service Card 3 -->
+        <div class="service-card glass-card">
+          <div class="service-image-header">
+            <img src="fotos/foto_2.png" alt="Playeras y Textiles DTF">
+            <div class="service-badge-tag"><i class="fa-solid fa-shirt"></i> Textil DTF</div>
+          </div>
+          <div class="service-body">
+            <h3 class="service-title">Playeras & Textiles DTF</h3>
+            <p class="service-text">
+              Estampado digital Direct-to-Film (DTF) con nitidez fotográfica y excelente elasticidad. Ideal para uniformes de negocios, marcas de ropa independientes y colecciones especiales.
+            </p>
+            <ul class="service-features">
+              <li><i class="fa-solid fa-check"></i> Colores vivos sin límite de sombras</li>
+              <li><i class="fa-solid fa-check"></i> Resistencia a más de 50 lavadas</li>
+              <li><i class="fa-solid fa-check"></i> Playeras 100% algodón o mezclas premium</li>
+            </ul>
+            <a href="https://wa.me/527778247658?text=Hola,%20me%20interesa%20cotizar%20playeras%20DTF" target="_blank" class="service-btn">Cotizar Playeras <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <!-- Service Card 4 -->
+        <div class="service-card glass-card">
+          <div class="service-image-header">
+            <video autoplay loop muted playsinline poster="fotos/Raven3DPortada.png">
+              <source src="fotos/laser_1.mp4" type="video/mp4">
+              Tu navegador no soporta video.
+            </video>
+            <div class="service-badge-tag"><i class="fa-solid fa-laser"></i> Grabado Láser</div>
+          </div>
+          <div class="service-body">
+            <h3 class="service-title">Corte Láser & Artículos Personalizados</h3>
+            <p class="service-text">
+              Corte y grabado CNC/Láser de alta precisión sobre acrílico, MDF, madera, termos, fundas de teléfono, reconocimientos y productos promocionales para eventos.
+            </p>
+            <ul class="service-features">
+              <li><i class="fa-solid fa-check"></i> Grabado personalizado permanente</li>
+              <li><i class="fa-solid fa-check"></i> Prototipado y piezas únicas</li>
+              <li><i class="fa-solid fa-check"></i> Venta individual o por mayoreo</li>
+            </ul>
+            <a href="https://wa.me/527778247658?text=Hola,%20me%20interesa%20cotizar%20articulos%20personalizados%20laser" target="_blank" class="service-btn">Cotizar Grabado <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Portfolio Gallery Section -->
+  <section class="gallery-section" id="galeria">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-tag"><i class="fa-solid fa-camera"></i> Trabajos Reales</span>
+        <h2 class="section-title">Galería de <span class="neon-text-cyan">Proyectos Entregados</span></h2>
+        <p class="section-subtitle">Explora fotografías y videos reales de letreros neón, letras 3D y prendas elaboradas en nuestro taller.</p>
+
+        <!-- Filter Buttons -->
+        <div class="gallery-filter-buttons">
+          <button class="filter-btn active" data-filter="all">Todos los Trabajos</button>
+          <button class="filter-btn" data-filter="neon">Anuncios Neón LED</button>
+          <button class="filter-btn" data-filter="letras3d">Letras 3D / Iluminados</button>
+          <button class="filter-btn" data-filter="textil">Playeras DTF</button>
+          <button class="filter-btn" data-filter="video">Video Proceso</button>
+        </div>
+      </div>
+
+      <!-- Gallery Grid -->
+      <div class="gallery-grid" id="gallery-grid">
+
+        <!-- Item 1: Display Neón -->
+        <div class="gallery-item" data-category="neon">
+          <div class="gallery-card">
+            <img src="fotos/foto_1.png" alt="Colección de Letreros Neón Comerciales" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-cat">Anuncio Neón</span>
+              <h4 class="gallery-title">Muestrario de Letreros Neón para Negocios</h4>
+              <button class="zoom-btn" onclick="openLightbox('fotos/foto_1.png', 'Muestrario de Letreros Neón para Negocios')">
+                <i class="fa-solid fa-expand"></i> Ampliar Imagen
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 2: Cerveza Neón -->
+        <div class="gallery-item" data-category="neon">
+          <div class="gallery-card">
+            <img src="fotos/1.jpeg" alt="Neón Forma Jarra de Cerveza" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-cat">Neón Flex</span>
+              <h4 class="gallery-title">Neón Jarra de Cerveza con Espuma</h4>
+              <button class="zoom-btn" onclick="openLightbox('fotos/1.jpeg', 'Neón Jarra de Cerveza con Espuma')">
+                <i class="fa-solid fa-expand"></i> Ampliar Imagen
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 3: Bar & Cocktail -->
+        <div class="gallery-item" data-category="neon">
+          <div class="gallery-card">
+            <img src="fotos/2.jpeg" alt="Letrero Neón BAR con Cóctel" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-cat">Neón Flex</span>
+              <h4 class="gallery-title">Letrero Neón BAR con Copa de Cóctel</h4>
+              <button class="zoom-btn" onclick="openLightbox('fotos/2.jpeg', 'Letrero Neón BAR con Copa de Cóctel')">
+                <i class="fa-solid fa-expand"></i> Ampliar Imagen
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 4: Michelada -->
+        <div class="gallery-item" data-category="neon">
+          <div class="gallery-card">
+            <img src="fotos/3.jpeg" alt="Neón Bebida Michelada" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-cat">Neón Flex</span>
+              <h4 class="gallery-title">Neón Ilustración Michelada / Bebida</h4>
+              <button class="zoom-btn" onclick="openLightbox('fotos/3.jpeg', 'Neón Ilustración Michelada / Bebida')">
+                <i class="fa-solid fa-expand"></i> Ampliar Imagen
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 5: El Grano de Oro -->
+        <div class="gallery-item" data-category="letras3d">
+          <div class="gallery-card">
+            <img src="fotos/4.jpeg" alt="Anuncio Iluminado El Grano de Oro" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-cat">Letrero 3D / Iluminado</span>
+              <h4 class="gallery-title">Anuncio Comercial El Grano de Oro</h4>
+              <button class="zoom-btn" onclick="openLightbox('fotos/4.jpeg', 'Anuncio Comercial El Grano de Oro')">
+                <i class="fa-solid fa-expand"></i> Ampliar Imagen
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 6: Circular Mi Pueblito -->
+        <div class="gallery-item" data-category="letras3d">
+          <div class="gallery-card">
+            <img src="fotos/5.jpeg" alt="Letrero Circular 3D Antojitos Mi Pueblito" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-cat">Letras 3D & Neón</span>
+              <h4 class="gallery-title">Letrero Circular 3D Antojitos Mi Pueblito</h4>
+              <button class="zoom-btn" onclick="openLightbox('fotos/5.jpeg', 'Letrero Circular 3D Antojitos Mi Pueblito')">
+                <i class="fa-solid fa-expand"></i> Ampliar Imagen
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 7: BP Wings Co -->
+        <div class="gallery-item" data-category="neon">
+          <div class="gallery-card">
+            <img src="fotos/6.jpeg" alt="Letrero Neón BP Wings Co" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-cat">Neón Flex</span>
+              <h4 class="gallery-title">Neón Comercial BP Wings Co</h4>
+              <button class="zoom-btn" onclick="openLightbox('fotos/6.jpeg', 'Neón Comercial BP Wings Co')">
+                <i class="fa-solid fa-expand"></i> Ampliar Imagen
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 8: Elotes y Esquites -->
+        <div class="gallery-item" data-category="neon">
+          <div class="gallery-card">
+            <img src="fotos/7.jpeg" alt="Neón Elotes y Esquites" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-cat">Neón Flex</span>
+              <h4 class="gallery-title">Anuncio Neón Elotes y Esquites</h4>
+              <button class="zoom-btn" onclick="openLightbox('fotos/7.jpeg', 'Anuncio Neón Elotes y Esquites')">
+                <i class="fa-solid fa-expand"></i> Ampliar Imagen
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 9: Playeras Spider DTF -->
+        <div class="gallery-item" data-category="textil">
+          <div class="gallery-card">
+            <img src="fotos/foto_2.png" alt="Exhibidor de Playeras Personalizadas DTF" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-cat">Textil DTF</span>
+              <h4 class="gallery-title">Playeras Personalizadas Colección Spider</h4>
+              <button class="zoom-btn" onclick="openLightbox('fotos/foto_2.png', 'Playeras Personalizadas Colección Spider')">
+                <i class="fa-solid fa-expand"></i> Ampliar Imagen
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 10: Playera Homero DTF -->
+        <div class="gallery-item" data-category="textil">
+          <div class="gallery-card">
+            <img src="fotos/foto_3.png" alt="Playera DTF Homero Astronauta" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-cat">Textil DTF</span>
+              <h4 class="gallery-title">Playera Estampado DTF Homero Astronauta</h4>
+              <button class="zoom-btn" onclick="openLightbox('fotos/foto_3.png', 'Playera Estampado DTF Homero Astronauta')">
+                <i class="fa-solid fa-expand"></i> Ampliar Imagen
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 11: Video Proceso Láser -->
+        <div class="gallery-item" data-category="video">
+          <div class="gallery-card video-card">
+            <video autoplay loop muted playsinline poster="fotos/Raven3DPortada.png">
+              <source src="fotos/laser_1.mp4" type="video/mp4">
+            </video>
+            <div class="gallery-overlay">
+              <span class="gallery-cat">Corte Láser</span>
+              <h4 class="gallery-title">Proceso de Corte & Grabado Láser</h4>
+              <button class="zoom-btn" onclick="openVideoLightbox('fotos/laser_1.mp4', 'Proceso de Corte y Grabado Láser')">
+                <i class="fa-solid fa-play"></i> Reproducir Video
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Work Process Section -->
+  <section class="process-section" id="proceso">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-tag"><i class="fa-solid fa-diagram-project"></i> ¿Cómo Trabajamos?</span>
+        <h2 class="section-title">Tu Proyecto en <span class="neon-text-cyan">4 Sencillos Pasos</span></h2>
+        <p class="section-subtitle">Desde la primera idea hasta la instalación o entrega en tu puerta.</p>
+      </div>
+
+      <div class="process-steps-grid">
+        <div class="step-card glass-card">
+          <div class="step-number">01</div>
+          <div class="step-icon"><i class="fa-solid fa-comments"></i></div>
+          <h3 class="step-title">Cotización y Boceto</h3>
+          <p class="step-desc">Nos compartes tu idea, frase o logotipo. Diseñamos una vista previa digital para tu aprobación.</p>
+        </div>
+
+        <div class="step-card glass-card">
+          <div class="step-number">02</div>
+          <div class="step-icon"><i class="fa-solid fa-laser"></i></div>
+          <h3 class="step-title">Corte y Producción</h3>
+          <p class="step-desc">Cortamos las bases de MDF o acrílico con tecnología láser CNC e imprimimos textiles con calidad DTF.</p>
+        </div>
+
+        <div class="step-card glass-card">
+          <div class="step-number">03</div>
+          <div class="step-icon"><i class="fa-solid fa-plug-circle-bolt"></i></div>
+          <h3 class="step-title">Ensamble y Cableado</h3>
+          <p class="step-desc">Instalamos las tiras de neón flex o LEDs de alta potencia con acabado impecable sin cables visibles.</p>
+        </div>
+
+        <div class="step-card glass-card">
+          <div class="step-number">04</div>
+          <div class="step-icon"><i class="fa-solid fa-box-open"></i></div>
+          <h3 class="step-title">Empaque y Entrega</h3>
+          <p class="step-desc">Protegemos tu letrero con embalaje especial antishock y enviamos con rastreo a todo México.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Accordion Section -->
+  <section class="faq-section" id="faq">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-tag"><i class="fa-solid fa-circle-question"></i> Respuestas Rápidas</span>
+        <h2 class="section-title">Preguntas <span class="neon-text-magenta">Frecuentes</span></h2>
+      </div>
+
+      <div class="faq-accordion-container">
+        
+        <div class="faq-item glass-card">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            <span>¿Cuál es la diferencia entre letrero Neón en MDF y en Acrílico?</span>
+            <i class="fa-solid fa-chevron-down faq-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <p>El letrero en <strong>MDF</strong> es una excelente opción económica y resistente ideal para interiores. El letrero en <strong>Acrílico Transparente</strong> brinda un acabado elegante donde el neón parece flotar sobre la pared.</p>
+          </div>
+        </div>
+
+        <div class="faq-item glass-card">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            <span>¿Cuánto tiempo tarda la fabricación de un letrero neón?</span>
+            <i class="fa-solid fa-chevron-down faq-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <p>El tiempo promedio de fabricación es de 3 a 5 días hábiles a partir de la confirmación del boceto digital y el anticipo. Si requieres producción urgente, contamos con servicio prioritario.</p>
+          </div>
+        </div>
+
+        <div class="faq-item glass-card">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            <span>¿Hacen envíos a todo México?</span>
+            <i class="fa-solid fa-chevron-down faq-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <p>¡Sí! Realizamos envíos seguros por paquetería express (FedEx, DHL, Estafeta) con empaque reinforced para asegurar que tu letrero llegue en perfectas condiciones.</p>
+          </div>
+        </div>
+
+        <div class="faq-item glass-card">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            <span>¿Qué garantía ofrecen en los anuncios de Neón Flex?</span>
+            <i class="fa-solid fa-chevron-down faq-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Ofrecemos 3 meses de garantía directa sobre la tira Neón Flex y eliminadores de corriente de 12V.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact & Map Section -->
+  <section class="contact-section" id="contacto">
+    <div class="container">
+      <div class="contact-wrapper glass-card">
+        
+        <div class="contact-info">
+          <span class="section-tag"><i class="fa-solid fa-headset"></i> Atención Personalizada</span>
+          <h2 class="contact-title">¿Listo para hacer destacar tu negocio?</h2>
+          <p class="contact-text">Ponte en contacto con el equipo de <strong>Raven Studio 3D</strong>. Te asesoramos en el diseño, medidas y materiales ideales para tu espacio.</p>
+
+          <div class="contact-methods">
+            <div class="contact-method-item">
+              <div class="method-icon cyan-icon"><i class="fa-brands fa-whatsapp"></i></div>
+              <div>
+                <h4>Atención Inmediata WhatsApp</h4>
+                <p>Respuesta rápida y cotizaciones en minutos</p>
+                <a href="https://wa.me/527778247658?text=Hola%20Raven%20Studio%203D,%20quiero%20informaci%C3%B3n" target="_blank" rel="noopener" class="contact-link">+52 777 824 7658</a>
+              </div>
+            </div>
+
+            <div class="contact-method-item">
+              <div class="method-icon magenta-icon"><i class="fa-solid fa-clock"></i></div>
+              <div>
+                <h4>Horario de Atención</h4>
+                <p>Lunes a Sábado: 9:00 AM - 7:00 PM</p>
+              </div>
+            </div>
+
+            <div class="contact-method-item">
+              <div class="method-icon cyan-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div>
+                <h4>Taller de Fabricación</h4>
+                <p>Envíos locales e internacionales con embalaje de protección.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-box">
+          <h3>Envíanos un Mensaje Directo</h3>
+          <form id="contact-form" onsubmit="handleContactSubmit(event)">
+            <div class="form-group">
+              <label for="contact-name">Nombre Completo:</label>
+              <input type="text" id="contact-name" class="form-control" placeholder="Tu nombre" required>
+            </div>
+            <div class="form-group">
+              <label for="contact-phone">Teléfono / WhatsApp:</label>
+              <input type="tel" id="contact-phone" class="form-control" placeholder="Ej. 7778247658" required>
+            </div>
+            <div class="form-group">
+              <label for="contact-message">¿Qué proyecto tienes en mente?</label>
+              <textarea id="contact-message" class="form-control" rows="4" placeholder="Describe tu idea, frase, medidas o negocio..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary glow-magenta btn-block">
+              <i class="fa-solid fa-paper-plane"></i> Enviar Mensaje
+            </button>
+            <div id="contact-alert" class="contact-alert-msg"></div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="main-footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <div class="brand-logo">
+          <img src="fotos/Raven3DPerfil.png" alt="Raven Studio 3D" class="footer-logo">
+          <div>
+            <span class="brand-name">RAVEN</span>
+            <span class="brand-sub">STUDIO 3D</span>
+          </div>
+        </div>
+        <p class="footer-desc">
+          Especialistas en la fabricación de Letras 3D, Anuncios Neón Flex, Impresión Textil DTF y Artículos Personalizados con Grabado Láser.
+        </p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Navegación</h4>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#cotizador">Cotizador Neón</a></li>
+          <li><a href="#galeria">Galería de Trabajos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-social">
+        <h4>Síguenos en Redes</h4>
+        <div class="social-icons">
+          <a href="#" aria-label="Facebook" class="social-icon"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram" class="social-icon"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="TikTok" class="social-icon"><i class="fa-brands fa-tiktok"></i></a>
+          <a href="https://wa.me/527778247658" aria-label="WhatsApp" class="social-icon whatsapp-social"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2026 Raven Studio 3D. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Button -->
+  <a href="https://wa.me/527778247658?text=Hola%20Raven%20Studio%203D,%20me%20interesa%20cotizar%20un%20proyecto" class="whatsapp-float" target="_blank" rel="noopener" title="Chatear por WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+    <span class="float-tooltip">Cotiza por WhatsApp</span>
+  </a>
+
+  <!-- Lightbox Modal -->
+  <div class="lightbox-modal" id="lightbox-modal" onclick="closeLightbox(event)">
+    <div class="lightbox-content" onclick="event.stopPropagation()">
+      <button class="lightbox-close" onclick="closeLightbox()">&times;</button>
+      <div class="lightbox-media-container" id="lightbox-media"></div>
+      <h3 class="lightbox-caption" id="lightbox-caption"></h3>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
